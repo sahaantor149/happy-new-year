@@ -1,0 +1,403 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.909),
+      rgba(4, 9, 30, 0.164)
+    ),
+    url(./images/Banner\ Image.png);
+  min-height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.header h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 90px;
+  text-align: center;
+}
+.discount {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.discount span {
+  font-size: 65px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 2%;
+}
+.discount p {
+  color: red;
+  font-weight: 500;
+}
+.discount h2 {
+  margin-bottom: 2%;
+  font-size: 30px;
+  font-weight: 700;
+}
+.welcome {
+  background-image: linear-gradient(
+      to right,
+      rgba(4, 9, 30, 0.909),
+      rgba(4, 9, 30, 0.164)
+    ),
+    url(./images/Vectorrr.png);
+  min-height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.welCon {
+  padding: 80px;
+}
+.welCon h1 {
+  font-size: 90px;
+  line-height: 1;
+  margin-bottom: 3%;
+}
+.welCon p {
+  font-size: 22px;
+  margin-bottom: 3%;
+}
+.welCon button {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.date {
+  background: linear-gradient(
+    to bottom,
+    rgba(244, 67, 67, 0.338),
+    rgba(4, 9, 30, 0)
+  );
+  margin-top: 5%;
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.date h1 {
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+.date h1 span {
+  color: red;
+}
+.date button {
+  border: none;
+  padding: 15px 20px;
+  background: red;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.grid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 5%;
+  align-items: center;
+  padding: 30px;
+}
+.grid1 h2 {
+  font-size: 20px;
+  color: red;
+}
+.grid1 h1 {
+  font-size: 35px;
+}
+.grid1 p {
+  margin-top: 5%;
+  font-size: 18px;
+}
+.grid2 img {
+  width: 70%;
+  outline: 15px solid red;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.grid3 img {
+  padding-top: 2%;
+}
+.grid3 span {
+  font-size: 35px;
+  color: red;
+  font-weight: 700;
+}
+.twoImg {
+  display: flex;
+}
+.img1 {
+  margin-right: -75%;
+  z-index: 999;
+  width: 100%;
+}
+.sale {
+  margin-top: 5%;
+}
+.allDis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reds {
+  width: 100%;
+  height: 100px;
+  background: red;
+  position: relative;
+  z-index: -1;
+  border-radius: 10px;
+}
+.imgss img {
+  width: 100%;
+  margin-bottom: -40%;
+  z-index: 999;
+}
+.sellOffer {
+  text-align: center;
+}
+.sellOffer span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.sellOffer h1 {
+  font-size: 65px;
+}
+.sellOffer h1 span {
+  font-size: 65px;
+  font-weight: 700;
+  color: red;
+}
+.sellOffer p {
+  font-size: 18px;
+  padding: 25px;
+}
+.sixImgGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 5%;
+}
+.portfolio h2 {
+  color: red;
+  font-size: 20px;
+}
+.portfolio h1 {
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.portfolio p {
+  margin-bottom: 4%;
+}
+.portfolio {
+  margin-top: 5%;
+}
+.newsleter {
+  background: #dc141432;
+  margin-top: 10%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.newsleter h1 {
+  font-size: 60px;
+}
+.newsleter p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.inputs input {
+  width: 300px;
+  height: 30px;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 1%;
+  border-radius: 10px;
+}
+.inputs button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  background: red;
+  color: #fff;
+  border-radius: 10px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 3%;
+}
+.fuliNumber {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.footerFirst {
+  display: flex;
+  margin-top: 5%;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2%;
+}
+.socialIcon {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2%;
+}
+.lastFot {
+  display: flex;
+  justify-content: first baseline;
+}
+.sixImgGrid img {
+  width: 100%;
+}
+@media (max-width: 450px) {
+  .sixImgGrid {
+    display: block;
+    gap: 5%;
+  }
+  .discount img {
+    width: 100%;
+  }
+  * {
+    max-width: auto;
+  }
+  .reds {
+    display: none;
+  }
+  .allDis {
+    display: block;
+  }
+  .header h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .welCon h1 {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 3%;
+  }
+  .welCon p {
+    font-size: 14px;
+    margin-bottom: 3%;
+  }
+  .grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    padding: 30px;
+  }
+  .sale {
+    margin-top: 20%;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .imgss img {
+    width: 100%;
+    margin-bottom: 0%;
+    z-index: 999;
+  }
+  .img1 img {
+    width: 50%;
+  }
+  .socialIcon img {
+    width: 10%;
+  }
+  .portfolio h1 {
+    font-size: 40px;
+    margin-bottom: 1%;
+  }
+  .newsleter h1 {
+    font-size: 32px;
+  }
+  .newsleter img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media (max-width: 768px) {
+  .welCon h1 {
+    font-size: 37px;
+    line-height: 1;
+    margin-bottom: 3%;
+  }
+  .welCon p {
+    font-size: 17px;
+    margin-bottom: 3%;
+  }
+  .img1 img {
+    width: 30%;
+  }
+  .img2 {
+    width: 100%;
+  }
+  .sixImgGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sixImgGrid img {
+    width: 100%;
+  }
+  .discount img {
+    width: 100%;
+  }
+  .imgss img {
+    width: 100%;
+    margin-bottom: -90%;
+    z-index: 999;
+  }
+  .newsleter {
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
